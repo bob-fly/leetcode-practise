@@ -35,22 +35,22 @@ import "fmt"
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/plus-one
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
- */
+*/
 
 func main()  {
-	nums:=[]int {9,9,9,9}
+	nums:=[]int {0}
 	nums2:=make([]int, len(nums))
 	copy(nums2,nums)
-	fmt.Printf("before: %v, after: %v",nums, plusOne(nums2))
+	fmt.Printf("before: %v, after: %v",nums, plusOne2(nums2))
 	//fmt.Printf("result: %v",append(append[]int {1,2,3},4))
 
 }
 
-func plusOne(digits []int) []int{
+func plusOne2(digits []int) []int{
 	if digits ==nil || len(digits)<0 {
 		return digits
 	}
-	for i := len(digits)-1;i>0;i-- {
+	for i := len(digits)-1;i>=0;i-- {
 		if digits[i] != 9{
 			digits[i]+=1
 			return digits
@@ -61,28 +61,6 @@ func plusOne(digits []int) []int{
 	digits = append(digits, 0)
 	digits[0]=1
 	return digits
-	//return doCycle(digits,len(digits)-1)
 }
 
-func doCycle(nums []int ,index int) []int {
-	//退出条件
-	if nums[index] !=9 {
-		nums[index]+=1
-		return nums
-	}
-	// num ==9
-	nums[index]=0
 
-	//首位为9
-	if index ==0 {
-		//数组后移
-		copyNums := make([]int, len(nums)+1)
-		copy(copyNums, nums)
-		for i := 1; i < len(copyNums); i++ {
-			copyNums[i] = nums[i-1]
-		}
-		copyNums[0] = 1
-		return copyNums
-	}
-	return doCycle(nums,index-1)
-}

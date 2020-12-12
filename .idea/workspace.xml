@@ -36,7 +36,15 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build addOne.go">
+  <component name="RunManager" selected="Go Build.go build addOne-2.go">
+    <configuration name="go build addOne-2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-practices" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/golang/addOne-2.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build addOne.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode-practices" />
       <working_directory value="$PROJECT_DIR$" />
@@ -55,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build addOne-2.go" />
         <item itemvalue="Go Build.go build addOne.go" />
         <item itemvalue="Go Build.go build twoSum.go" />
       </list>
@@ -68,38 +77,38 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1607771459415">
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1607778621271">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607771459415" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1607771459414">
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621271" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1607778621269">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607771459414" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1607771459413">
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621269" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1607778621268">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607771459413" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1607771459414">
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621268" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1607778621271">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607771459414" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1607771433473">
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621271" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1607778621647">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607771433473" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1607771433472">
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621647" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1607778621646">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607771433472" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1607771433472">
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621646" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1607778621645">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607771433472" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1607771433473">
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621645" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1607778621646">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607771433473" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607778621646" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1607769823622">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -110,8 +119,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/golang/addOne.go</url>
-          <line>56</line>
+          <line>68</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/golang/addOne-2.go</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
